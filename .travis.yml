@@ -7,3 +7,10 @@ cache: npm
 
 before_install:
   - ls -la
+
+install:
+  - ls -la
+  - npm install
+  - ls -la
+  - cd node-modules
+  - ls -la
